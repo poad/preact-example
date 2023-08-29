@@ -1,1 +1,1 @@
-# preact-routing-example
+# preact-example
