@@ -2,6 +2,7 @@
 // See https://vite-plugin-ssr.com/pageContext-anywhere
 
 import { createContext } from 'preact';
+import { ReactNode } from 'preact/compat';
 import { useContext } from 'preact/hooks';
 
 export { PageContextProvider };
@@ -9,11 +10,17 @@ export { usePageContext };
 
 const Context = createContext(undefined);
 
-function PageContextProvider({ pageContext, children }) {
-	return <Context.Provider value={pageContext}>{children}</Context.Provider>;
+function PageContextProvider({
+  pageContext,
+  children,
+}: {
+  pageContext: { urlPathname: string };
+  children: ReactNode;
+}) {
+  return <Context.Provider value={pageContext}>{children}</Context.Provider>;
 }
 
 function usePageContext() {
-	const pageContext = useContext(Context);
-	return pageContext;
+  const pageContext = useContext<{ urlPathname: string }>(Context);
+  return pageContext;
 }
