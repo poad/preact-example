@@ -42,7 +42,7 @@
 		"rimraf": "^5.0.1",
 		"typescript": "^5.2.2",
 		"vite": "^4.4.9",
-		"vite-plugin-ssr": "^0.4.140"
+		"vite-plugin-ssr": "^0.4.141"
 	},
 	"packageManager": "pnpm@8.7.1",
 	"engines": {
