@@ -1224,8 +1224,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mdn/browser-compat-data@5.3.27:
-    resolution: {integrity: sha512-ts9LDUeckWeHVjGR3uk70/pm1yuwvl/bawPGsOittOk95YRkutuGvnRrfl2lARd0XrCNIIFwRZsmw2pVjMaNJw==}
+  /@mdn/browser-compat-data@5.3.28:
+    resolution: {integrity: sha512-vC+UDAsQti7Cv2oBahPfgnTXT7n0XZk8e7UFucNMmkauszdiiEsNFI0elmMMrh2u+IaMOvAAHo3DDzMx7y80Cw==}
     dev: true
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
@@ -1799,7 +1799,7 @@ packages:
   /ast-metadata-inferer@0.8.0:
     resolution: {integrity: sha512-jOMKcHht9LxYIEQu+RVd22vtgrPaVCtDRQ/16IGmurdzxvYbDd5ynxjnyrzLnieG96eTcAyaoj/wN/4/1FyyeA==}
     dependencies:
-      '@mdn/browser-compat-data': 5.3.27
+      '@mdn/browser-compat-data': 5.3.28
     dev: true
 
   /asynciterator.prototype@1.0.0:
@@ -1923,7 +1923,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001559
-      electron-to-chromium: 1.4.571
+      electron-to-chromium: 1.4.572
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
@@ -2176,8 +2176,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.571:
-    resolution: {integrity: sha512-Sc+VtKwKCDj3f/kLBjdyjMpNzoZsU6WuL/wFb6EH8USmHEcebxRXcRrVpOpayxd52tuey4RUDpUsw5OS5LhJqg==}
+  /electron-to-chromium@1.4.572:
+    resolution: {integrity: sha512-RlFobl4D3ieetbnR+2EpxdzFl9h0RAJkPK3pfiwMug2nhBin2ZCsGIAJWdpNniLz43sgXam/CgipOmvTA+rUiA==}
     dev: true
 
   /emittery@0.13.1:
@@ -2516,7 +2516,7 @@ packages:
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@mdn/browser-compat-data': 5.3.27
+      '@mdn/browser-compat-data': 5.3.28
       ast-metadata-inferer: 0.8.0
       browserslist: 4.22.1
       caniuse-lite: 1.0.30001559
