@@ -1,5 +1,8 @@
 export { render };
 
+export const clientRouting = true;
+export const hydrationCanBeAborted = true;
+
 import { hydrate } from 'preact';
 import { PageShell } from './PageShell';
 
