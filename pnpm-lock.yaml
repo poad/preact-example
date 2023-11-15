@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   preact:
-    specifier: ^10.19.1
-    version: 10.19.1
+    specifier: ^10.19.2
+    version: 10.19.2
   preact-render-to-string:
     specifier: ^6.3.1
-    version: 6.3.1(preact@10.19.1)
+    version: 6.3.1(preact@10.19.2)
 
 devDependencies:
   '@preact/preset-vite':
     specifier: ^2.6.0
-    version: 2.6.0(@babel/core@7.23.3)(preact@10.19.1)(vite@4.5.0)
+    version: 2.6.0(@babel/core@7.23.3)(preact@10.19.2)(vite@4.5.0)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.11.0
     version: 6.11.0(@typescript-eslint/parser@6.11.0)(eslint@8.53.0)(typescript@5.2.2)
@@ -1224,8 +1224,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mdn/browser-compat-data@5.3.30:
-    resolution: {integrity: sha512-rMYcyYjBLBvZhULbaJdWJ63jOqDIbdyTvaOKc0d6O8wo1GSjYlnamsZZI4RhqqdbaiAaOyE1wjk1oRqfKBcK7A==}
+  /@mdn/browser-compat-data@5.3.31:
+    resolution: {integrity: sha512-y+vtoPN3LqQrfQWu7GItqMjv1WvMHlc6lTywu0L8ZMu9IcIssfQcze16LcKFcjRD+OM6EDTd/RACJ/5agXMsTQ==}
     dev: true
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
@@ -1266,7 +1266,7 @@ packages:
     resolution: {integrity: sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==}
     dev: true
 
-  /@preact/preset-vite@2.6.0(@babel/core@7.23.3)(preact@10.19.1)(vite@4.5.0):
+  /@preact/preset-vite@2.6.0(@babel/core@7.23.3)(preact@10.19.2)(vite@4.5.0):
     resolution: {integrity: sha512-5nztNzXbCpqyVum/K94nB2YQ5PTnvWdz4u7/X0jc8+kLyskSSpkNUxLQJeI90zfGSFIX1Ibj2G2JIS/mySHWYQ==}
     peerDependencies:
       '@babel/core': 7.x
@@ -1275,7 +1275,7 @@ packages:
       '@babel/core': 7.23.3
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.3)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.23.3)
-      '@prefresh/vite': 2.4.4(preact@10.19.1)(vite@4.5.0)
+      '@prefresh/vite': 2.4.4(preact@10.19.2)(vite@4.5.0)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.23.3)
       debug: 4.3.4
@@ -1291,19 +1291,19 @@ packages:
     resolution: {integrity: sha512-uG3jGEAysxWoyG3XkYfjYHgaySFrSsaEb4GagLzYaxlydbuREtaX+FTxuIidp241RaLl85XoHg9Ej6E4+V1pcg==}
     dev: true
 
-  /@prefresh/core@1.5.2(preact@10.19.1):
+  /@prefresh/core@1.5.2(preact@10.19.2):
     resolution: {integrity: sha512-A/08vkaM1FogrCII5PZKCrygxSsc11obExBScm3JF1CryK2uDS3ZXeni7FeKCx1nYdUkj4UcJxzPzc1WliMzZA==}
     peerDependencies:
       preact: ^10.0.0
     dependencies:
-      preact: 10.19.1
+      preact: 10.19.2
     dev: true
 
   /@prefresh/utils@1.2.0:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: true
 
-  /@prefresh/vite@2.4.4(preact@10.19.1)(vite@4.5.0):
+  /@prefresh/vite@2.4.4(preact@10.19.2)(vite@4.5.0):
     resolution: {integrity: sha512-7jcz3j5pXufOWTjl31n0Lc3BcU8oGoacoaWx/Ur1QJ+fd4Xu0G7g/ER1xV02x7DCiVoFi7xtSgaophOXoJvpmA==}
     peerDependencies:
       preact: ^10.4.0
@@ -1311,10 +1311,10 @@ packages:
     dependencies:
       '@babel/core': 7.23.3
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.2(preact@10.19.1)
+      '@prefresh/core': 1.5.2(preact@10.19.2)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.19.1
+      preact: 10.19.2
       vite: 4.5.0
     transitivePeerDependencies:
       - supports-color
@@ -1799,7 +1799,7 @@ packages:
   /ast-metadata-inferer@0.8.0:
     resolution: {integrity: sha512-jOMKcHht9LxYIEQu+RVd22vtgrPaVCtDRQ/16IGmurdzxvYbDd5ynxjnyrzLnieG96eTcAyaoj/wN/4/1FyyeA==}
     dependencies:
-      '@mdn/browser-compat-data': 5.3.30
+      '@mdn/browser-compat-data': 5.3.31
     dev: true
 
   /asynciterator.prototype@1.0.0:
@@ -1922,8 +1922,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001561
-      electron-to-chromium: 1.4.582
+      caniuse-lite: 1.0.30001562
+      electron-to-chromium: 1.4.583
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
@@ -1977,8 +1977,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite@1.0.30001561:
-    resolution: {integrity: sha512-NTt0DNoKe958Q0BE0j0c1V9jbUzhBxHIEJy7asmGrpE0yG63KTV7PLHPnK2E1O9RsQrQ081I3NLuXGS6zht3cw==}
+  /caniuse-lite@1.0.30001562:
+    resolution: {integrity: sha512-kfte3Hym//51EdX4239i+Rmp20EsLIYGdPkERegTgU19hQWCRhsRFGKHTliUlsry53tv17K7n077Kqa0WJU4ng==}
     dev: true
 
   /chalk@2.4.2:
@@ -2181,8 +2181,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.582:
-    resolution: {integrity: sha512-89o0MGoocwYbzqUUjc+VNpeOFSOK9nIdC5wY4N+PVUarUK0MtjyTjks75AZS2bW4Kl8MdewdFsWaH0jLy+JNoA==}
+  /electron-to-chromium@1.4.583:
+    resolution: {integrity: sha512-93y1gcONABZ7uqYe/JWDVQP/Pj/sQSunF0HVAPdlg/pfBnOyBMLlQUxWvkqcljJg1+W6cjvPuYD+r1Th9Tn8mA==}
     dev: true
 
   /emittery@0.13.1:
@@ -2521,10 +2521,10 @@ packages:
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@mdn/browser-compat-data': 5.3.30
+      '@mdn/browser-compat-data': 5.3.31
       ast-metadata-inferer: 0.8.0
       browserslist: 4.22.1
-      caniuse-lite: 1.0.30001561
+      caniuse-lite: 1.0.30001562
       eslint: 8.53.0
       find-up: 5.0.0
       lodash.memoize: 4.1.2
@@ -4304,17 +4304,17 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact-render-to-string@6.3.1(preact@10.19.1):
+  /preact-render-to-string@6.3.1(preact@10.19.2):
     resolution: {integrity: sha512-NQ28WrjLtWY6lKDlTxnFpKHZdpjfF+oE6V4tZ0rTrunHrtZp6Dm0oFrcJalt/5PNeqJz4j1DuZDS0Y6rCBoqDA==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.19.1
+      preact: 10.19.2
       pretty-format: 3.8.0
     dev: false
 
-  /preact@10.19.1:
-    resolution: {integrity: sha512-ZSsUr6EFlwWH0btdXMj6+X+hJAZ1v+aUzKlfwBGokKB1ZO6Shz+D16LxQhM8f+E/UgkKbVe2tsWXtGTUMCkGpQ==}
+  /preact@10.19.2:
+    resolution: {integrity: sha512-UA9DX/OJwv6YwP9Vn7Ti/vF80XL+YA5H2l7BpCtUr3ya8LWHFzpiO5R+N7dN16ujpIxhekRFuOOF82bXX7K/lg==}
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
