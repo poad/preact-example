@@ -1233,8 +1233,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mdn/browser-compat-data@5.5.1:
-    resolution: {integrity: sha512-uKCxAlG5dqNEuCqGSAHa8cSFCZujnv0SRBOuMWMLiza4YK/eSiyNlMwXtWJSrRmeCT+33DBk1VUtAcZdSRdA+g==}
+  /@mdn/browser-compat-data@5.5.2:
+    resolution: {integrity: sha512-HZX4YUlQXDrtuuyAw3ZrzS3LIlsBVL5AhRTROa9cwn6rUpBgtrMWy63S+ahvYhrJgbLmsrEmYwsd5YJBGk5btg==}
     dev: true
 
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
@@ -1912,7 +1912,7 @@ packages:
   /ast-metadata-inferer@0.8.0:
     resolution: {integrity: sha512-jOMKcHht9LxYIEQu+RVd22vtgrPaVCtDRQ/16IGmurdzxvYbDd5ynxjnyrzLnieG96eTcAyaoj/wN/4/1FyyeA==}
     dependencies:
-      '@mdn/browser-compat-data': 5.5.1
+      '@mdn/browser-compat-data': 5.5.2
     dev: true
 
   /asynciterator.prototype@1.0.0:
@@ -2644,7 +2644,7 @@ packages:
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@mdn/browser-compat-data': 5.5.1
+      '@mdn/browser-compat-data': 5.5.2
       ast-metadata-inferer: 0.8.0
       browserslist: 4.22.2
       caniuse-lite: 1.0.30001571
