@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       preact:
-        specifier: ^10.21.0
-        version: 10.21.0
+        specifier: ^10.22.0
+        version: 10.22.0
       preact-render-to-string:
         specifier: ^6.4.2
-        version: 6.4.2(preact@10.21.0)
+        version: 6.4.2(preact@10.22.0)
     devDependencies:
       '@preact/preset-vite':
         specifier: ^2.8.2
-        version: 2.8.2(@babel/core@7.24.5)(preact@10.21.0)(vite@5.2.11(@types/node@20.12.12))
+        version: 2.8.2(@babel/core@7.24.5)(preact@10.22.0)(vite@5.2.11(@types/node@20.12.12))
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.9.0
         version: 7.9.0(@typescript-eslint/parser@7.9.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)
@@ -1133,8 +1133,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001618:
-    resolution: {integrity: sha512-p407+D1tIkDvsEAPS22lJxLQQaG8OTBEqo0KhzfABGk0TU4juBNDSfH0hyAp/HRyx+M8L17z/ltyhxh27FTfQg==}
+  caniuse-lite@1.0.30001619:
+    resolution: {integrity: sha512-SfolDuyDxyza6EUm112ugVI3gKIvUY/6+iddjvy00Ri7SCp34ZqM1p+U357VTLvOQ5FUo4MIFxbst03nKkDHUw==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -1285,8 +1285,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.768:
-    resolution: {integrity: sha512-z2U3QcvNuxdkk33YV7R1bVMNq7fL23vq3WfO5BHcqrm4TnDGReouBfYKLEFh5umoK1XACjEwp8mmnhXk2EJigw==}
+  electron-to-chromium@1.4.772:
+    resolution: {integrity: sha512-jFfEbxR/abTTJA3ci+2ok1NTuOBBtB4jH+UT6PUmRN+DY3WSD4FFRsgoVQ+QNIJ0T7wrXwzsWCI2WKC46b++2A==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -2312,8 +2312,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.21.0:
-    resolution: {integrity: sha512-aQAIxtzWEwH8ou+OovWVSVNlFImL7xUCwJX3YMqA3U8iKCNC34999fFOnWjYNsylgfPgMexpbk7WYOLtKr/mxg==}
+  preact@10.22.0:
+    resolution: {integrity: sha512-RRurnSjJPj4rp5K6XoP45Ui33ncb7e4H7WiOHVpjbkvqvA3U+N8Z6Qbo0AE6leGYBV66n8EhEaFixvIu3SkxFw==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -3403,12 +3403,12 @@ snapshots:
 
   '@polka/url@1.0.0-next.25': {}
 
-  '@preact/preset-vite@2.8.2(@babel/core@7.24.5)(preact@10.21.0)(vite@5.2.11(@types/node@20.12.12))':
+  '@preact/preset-vite@2.8.2(@babel/core@7.24.5)(preact@10.22.0)(vite@5.2.11(@types/node@20.12.12))':
     dependencies:
       '@babel/core': 7.24.5
       '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.24.5)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.24.5)
-      '@prefresh/vite': 2.4.5(preact@10.21.0)(vite@5.2.11(@types/node@20.12.12))
+      '@prefresh/vite': 2.4.5(preact@10.22.0)(vite@5.2.11(@types/node@20.12.12))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.24.5)
       debug: 4.3.4
@@ -3425,20 +3425,20 @@ snapshots:
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.2(preact@10.21.0)':
+  '@prefresh/core@1.5.2(preact@10.22.0)':
     dependencies:
-      preact: 10.21.0
+      preact: 10.22.0
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.5(preact@10.21.0)(vite@5.2.11(@types/node@20.12.12))':
+  '@prefresh/vite@2.4.5(preact@10.22.0)(vite@5.2.11(@types/node@20.12.12))':
     dependencies:
       '@babel/core': 7.24.5
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.2(preact@10.21.0)
+      '@prefresh/core': 1.5.2(preact@10.22.0)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.21.0
+      preact: 10.22.0
       vite: 5.2.11(@types/node@20.12.12)
     transitivePeerDependencies:
       - supports-color
@@ -3892,8 +3892,8 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001618
-      electron-to-chromium: 1.4.768
+      caniuse-lite: 1.0.30001619
+      electron-to-chromium: 1.4.772
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
@@ -3919,7 +3919,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001618: {}
+  caniuse-lite@1.0.30001619: {}
 
   chalk@2.4.2:
     dependencies:
@@ -4071,7 +4071,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.768: {}
+  electron-to-chromium@1.4.772: {}
 
   emittery@0.13.1: {}
 
@@ -4305,7 +4305,7 @@ snapshots:
       '@mdn/browser-compat-data': 5.5.28
       ast-metadata-inferer: 0.8.0
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001618
+      caniuse-lite: 1.0.30001619
       eslint: 9.2.0
       find-up: 5.0.0
       lodash.memoize: 4.1.2
@@ -5421,12 +5421,12 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  preact-render-to-string@6.4.2(preact@10.21.0):
+  preact-render-to-string@6.4.2(preact@10.22.0):
     dependencies:
-      preact: 10.21.0
+      preact: 10.22.0
       pretty-format: 3.8.0
 
-  preact@10.21.0: {}
+  preact@10.22.0: {}
 
   prelude-ls@1.2.1: {}
 
