@@ -12,8 +12,8 @@ importers:
         specifier: ^10.22.0
         version: 10.22.0
       preact-render-to-string:
-        specifier: ^6.5.4
-        version: 6.5.4(preact@10.22.0)
+        specifier: ^6.5.5
+        version: 6.5.5(preact@10.22.0)
     devDependencies:
       '@preact/preset-vite':
         specifier: ^2.8.2
@@ -2311,8 +2311,8 @@ packages:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact-render-to-string@6.5.4:
-    resolution: {integrity: sha512-06s0E3cEMLoXQznmtJ/K/xbFs3uwo52Qpgf8lzbe+VbF/XzwJ0LxZGtVLZekhaEeC39+W1MEf05F4lUikzPnxA==}
+  preact-render-to-string@6.5.5:
+    resolution: {integrity: sha512-KiMFTKNTmT/ccE79BURR/r6XRc2I2TCTZ0MpeWqHW2XnllbeghXvwGsdAfF/MzMilUcTfODtSmMxgoRFL9TM5g==}
     peerDependencies:
       preact: '>=10'
 
@@ -5433,7 +5433,7 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  preact-render-to-string@6.5.4(preact@10.22.0):
+  preact-render-to-string@6.5.5(preact@10.22.0):
     dependencies:
       preact: 10.22.0
 
