@@ -269,8 +269,8 @@ packages:
   '@brillout/import@0.2.3':
     resolution: {integrity: sha512-1T8WlD75eeFSMrptGy8jiLHmfHgMmSjWvLOIUvHmSVZt+6k0eQqYUoK4KbmE4T9pVLIfxvZSOm2D68VEqKRHRw==}
 
-  '@brillout/json-serializer@0.5.10':
-    resolution: {integrity: sha512-3bh/MS5pudu3H9l3a0KAE1RBfy/L95JWAEo8b2mPBN3H98wzCHYzgjQb9xRl58y+Kc7FgkjApgCFJV+zR06P5Q==}
+  '@brillout/json-serializer@0.5.11':
+    resolution: {integrity: sha512-ZljXA1fw0v7fRXZpiFjXWUswiyzRFWcnwYzhn1rClX4ECHOoKm+FH5DPL2eSL1rvnOuAPwxMEGsUQ63y6LbrbA==}
 
   '@brillout/picocolors@1.0.13':
     resolution: {integrity: sha512-LblvMKItHbvkaIMI+Awsk1EEjmReE8E8Mgjtj3Pdn/qBvwQ6e+ts5uEqG6iTrK6JWndcxrQgSe664KfoteN6fA==}
@@ -1287,8 +1287,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.822:
-    resolution: {integrity: sha512-qJzHIt4dRRFKjHHvaExCrG95F65kUP3xysaEZ4I2+/R/uIyr5Ar5g/rkAnrRz0parRUYwzpqN8Pz1HgoiYQPpg==}
+  electron-to-chromium@1.4.823:
+    resolution: {integrity: sha512-4h+oPeAiGQOHFyUJOqpoEcPj/xxlicxBzOErVeYVMMmAiXUXsGpsFd0QXBMaUUbnD8hhSfLf9uw+MlsoIA7j5w==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -3021,7 +3021,7 @@ snapshots:
 
   '@brillout/import@0.2.3': {}
 
-  '@brillout/json-serializer@0.5.10': {}
+  '@brillout/json-serializer@0.5.11': {}
 
   '@brillout/picocolors@1.0.13': {}
 
@@ -3915,7 +3915,7 @@ snapshots:
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001641
-      electron-to-chromium: 1.4.822
+      electron-to-chromium: 1.4.823
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
@@ -4093,7 +4093,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.822: {}
+  electron-to-chromium@1.4.823: {}
 
   emittery@0.13.1: {}
 
@@ -5837,7 +5837,7 @@ snapshots:
   vite-plugin-ssr@0.4.142(vite@5.3.3(@types/node@20.14.10)):
     dependencies:
       '@brillout/import': 0.2.3
-      '@brillout/json-serializer': 0.5.10
+      '@brillout/json-serializer': 0.5.11
       '@brillout/picocolors': 1.0.13
       '@brillout/require-shim': 0.1.2
       '@brillout/vite-plugin-import-build': 0.2.22
