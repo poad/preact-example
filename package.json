@@ -28,7 +28,7 @@
 		"@preact/preset-vite": "^2.9.0",
 		"@typescript-eslint/eslint-plugin": "^7.17.0",
 		"@typescript-eslint/parser": "^7.17.0",
-		"eslint": "^9.7.0",
+		"eslint": "^9.8.0",
 		"eslint-config-preact": "^1.4.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-import-resolver-typescript": "^3.6.1",
