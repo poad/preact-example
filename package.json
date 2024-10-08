@@ -26,7 +26,6 @@
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.9.1",
-		"typescript-eslint": "^8.8.1",
 		"eslint": "^9.12.0",
 		"eslint-config-preact": "^1.5.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -38,6 +37,7 @@
 		"prettier": "^3.3.3",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.6.2",
+		"typescript-eslint": "^8.8.1",
 		"vite": "^5.4.8",
 		"vite-plugin-ssr": "^0.4.142"
 	},
