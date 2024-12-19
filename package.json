@@ -21,7 +21,7 @@
 		"prelint-fix": "pnpm clean"
 	},
 	"dependencies": {
-		"preact": "^10.25.2",
+		"preact": "^10.25.3",
 		"preact-render-to-string": "^6.5.12"
 	},
 	"devDependencies": {
