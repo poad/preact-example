@@ -24,7 +24,7 @@ importers:
     devDependencies:
       '@preact/preset-vite':
         specifier: ^2.9.3
-        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@6.0.5(@types/node@22.10.2))
+        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@6.0.6(@types/node@22.10.2))
       eslint:
         specifier: ^9.17.0
         version: 9.17.0
@@ -62,11 +62,11 @@ importers:
         specifier: ^8.18.2
         version: 8.18.2(eslint@9.17.0)(typescript@5.7.2)
       vite:
-        specifier: ^6.0.5
-        version: 6.0.5(@types/node@22.10.2)
+        specifier: ^6.0.6
+        version: 6.0.6(@types/node@22.10.2)
       vite-plugin-ssr:
         specifier: ^0.4.142
-        version: 0.4.142(vite@6.0.5(@types/node@22.10.2))
+        version: 0.4.142(vite@6.0.6(@types/node@22.10.2))
 
 packages:
 
@@ -2514,8 +2514,8 @@ packages:
       react-streaming:
         optional: true
 
-  vite@6.0.5:
-    resolution: {integrity: sha512-akD5IAH/ID5imgue2DYhzsEwCi0/4VKY31uhMLEYJwPP4TiUp8pL5PIK+Wo7H8qT8JY9i+pVfPydcFPYD1EL7g==}
+  vite@6.0.6:
+    resolution: {integrity: sha512-NSjmUuckPmDU18bHz7QZ+bTYhRR0iA72cs2QAxCqDpafJ0S6qetco0LB3WW2OxlMHS0JmAv+yZ/R3uPmMyGTjQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3203,13 +3203,13 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
-  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@6.0.5(@types/node@22.10.2))':
+  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@6.0.6(@types/node@22.10.2))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.0)
-      '@prefresh/vite': 2.4.6(preact@10.25.3)(vite@6.0.5(@types/node@22.10.2))
+      '@prefresh/vite': 2.4.6(preact@10.25.3)(vite@6.0.6(@types/node@22.10.2))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.0)
       debug: 4.4.0
@@ -3218,7 +3218,7 @@ snapshots:
       node-html-parser: 6.1.13
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
-      vite: 6.0.5(@types/node@22.10.2)
+      vite: 6.0.6(@types/node@22.10.2)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -3231,7 +3231,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.25.3)(vite@6.0.5(@types/node@22.10.2))':
+  '@prefresh/vite@2.4.6(preact@10.25.3)(vite@6.0.6(@types/node@22.10.2))':
     dependencies:
       '@babel/core': 7.26.0
       '@prefresh/babel-plugin': 0.5.1
@@ -3239,7 +3239,7 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.25.3
-      vite: 6.0.5(@types/node@22.10.2)
+      vite: 6.0.6(@types/node@22.10.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -5553,7 +5553,7 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  vite-plugin-ssr@0.4.142(vite@6.0.5(@types/node@22.10.2)):
+  vite-plugin-ssr@0.4.142(vite@6.0.6(@types/node@22.10.2)):
     dependencies:
       '@brillout/import': 0.2.3
       '@brillout/json-serializer': 0.5.15
@@ -5567,9 +5567,9 @@ snapshots:
       fast-glob: 3.3.2
       sirv: 2.0.4
       source-map-support: 0.5.21
-      vite: 6.0.5(@types/node@22.10.2)
+      vite: 6.0.6(@types/node@22.10.2)
 
-  vite@6.0.5(@types/node@22.10.2):
+  vite@6.0.6(@types/node@22.10.2):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
