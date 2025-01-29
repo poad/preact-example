@@ -440,8 +440,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mdn/browser-compat-data@5.6.33':
-    resolution: {integrity: sha512-56GEfTIgrPXAc9EL3MbJmv0QiIxZR/UzpOCzPtCGsW/IYr+3Bj1DbtBXnNMD2vOMqv1UVdCxy7LXxRcU+wxO5A==}
+  '@mdn/browser-compat-data@5.6.34':
+    resolution: {integrity: sha512-bq6146J/0e4AuNtx8PckK9Ibnlgp8IxVPh6u+SWkVuAhqDPv3yzgR9uoRDMmBBvxFKkU+WwpS7kq82GDH2Hj3w==}
 
   '@next/eslint-plugin-next@15.1.6':
     resolution: {integrity: sha512-+slMxhTgILUntZDGNgsKEYHUvpn72WP1YTlkmEhS51vnVd7S9jEEy0n9YAMcI21vUG4akTw9voWH02lrClt/yw==}
@@ -2333,7 +2333,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mdn/browser-compat-data@5.6.33': {}
+  '@mdn/browser-compat-data@5.6.34': {}
 
   '@next/eslint-plugin-next@15.1.6':
     dependencies:
@@ -2718,7 +2718,7 @@ snapshots:
 
   ast-metadata-inferer@0.8.1:
     dependencies:
-      '@mdn/browser-compat-data': 5.6.33
+      '@mdn/browser-compat-data': 5.6.34
 
   async-function@1.0.0: {}
 
@@ -3074,7 +3074,7 @@ snapshots:
 
   eslint-plugin-compat@4.2.0(eslint@9.19.0):
     dependencies:
-      '@mdn/browser-compat-data': 5.6.33
+      '@mdn/browser-compat-data': 5.6.34
       ast-metadata-inferer: 0.8.1
       browserslist: 4.24.4
       caniuse-lite: 1.0.30001695
