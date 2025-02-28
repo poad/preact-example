@@ -12,7 +12,7 @@
 		"start": "pnpm dlx serve@latest dist/client"
 	},
 	"dependencies": {
-		"preact": "^10.26.2",
+		"preact": "^10.26.3",
 		"preact-render-to-string": "^6.5.13"
 	},
 	"devDependencies": {
